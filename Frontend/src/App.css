@@ -27,6 +27,12 @@ main .right {
 
 main .left{
   background-color: black;
+  position:relative;
+}
+
+.left .code{
+height: 100%;
+width:100%
 }
 
 main .left .review{

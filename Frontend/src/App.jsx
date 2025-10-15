@@ -1,10 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState,useEffect } from 'react'
+import "prismjs/themes/prism-tomorrow.css"
+import prism from "prismjs"
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  useEffect(()=>{
+    prism.highlightAll()
+  })
 
   return (
   <>
