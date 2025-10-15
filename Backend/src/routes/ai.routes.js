@@ -6,6 +6,6 @@ const router = express.Router();
 
 
 
-router.post('/get-review', aiController.getResponse);
+router.post('/get-review', aiController.getReview);
 
 module.exports = router;
